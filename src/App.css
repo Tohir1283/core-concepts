@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 5%;
+  background-color: slategrey;
 }
 
 .App-logo {
@@ -26,6 +28,28 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#countryData {
+  border-top: 1px solid black;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-left: 10px;
+}
+
+.country {
+  width: 200px;
+  border: solid 3px gold;
+  border-radius: 20px;
+  margin: 25px;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.country img {
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
